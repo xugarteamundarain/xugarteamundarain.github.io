@@ -1,0 +1,1 @@
+images-projects: 416x256 // 832x512
