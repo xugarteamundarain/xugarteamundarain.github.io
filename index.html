@@ -55,11 +55,13 @@
                             <p>Still a learner, because we never stop learning.</p>
                             <p>If you have any information that could be useful for me, let me know through social media or send me an email: <code><strong>xugarteamundarain@gmail.com</strong></code>.</p>
                             <ul class="actions">
-                                <li><a href="CV_spanish.html" class="button big">Curriculum Vitae (spanish)</a></li>
+                                <li><a href="CV.html" class="button big">Curriculum Vitae</a></li>
                             </ul>
+                            <!--
                             <ul class="actions">
                                 <li><a href="CV_english.html" class="button big">Curriculum Vitae (english)</a></li>
                             </ul>
+                            -->
                         </div>
                         <span class="image object">
                             <img src="images/Portfolio03.jpg" alt="" />
@@ -207,25 +209,84 @@
                     <!-- Section -->
                     <section>
                         <header id="Personal_Projects" class="major">
-                            <h2>Personal Projects: </h2>
+                            <h2>Projects: </h2>
                         </header>
                         <div class="posts">
-						<!--
+                            <!--
+                                <article>
+                                    <a class="image"><img src="images/projects/YourCousinsRapSong.jpg" alt="" /></a>
+                                    <div class="box">
+                                        <h4 style="color:black">[COMING SOON]</h4>
+                                    </div>
+                                    <h3>Your Cousin's RAP Song</h3>
+                                    <p>Funny Browser Minigame.</p>
+                                    <div class="box">
+                                        <p><strong>[COMING SOON]</strong> <br /> </p>
+                                    </div>
+                                    <ul class="actions">
+                                        <li><a class="button">[COMING SOON]</a></li>
+                                    </ul>
+                                </article>
+                            -->
+
+                            <!-- 2SMRT2DIE -->
                             <article>
-                                <a class="image"><img src="images/projects/YourCousinsRapSong.jpg" alt="" /></a>
+                                <a href="https://complex-27.itch.io/2-smrt-to-die" class="image"><img src="images/projects/2SMRT2DIE.png" alt="" /></a>
+                                <h3>
+                                    2SMRT2DIE
+                                </h3>
+                                <p>Master's Degree Final Project.</p>
                                 <div class="box">
-                                    <h4 style="color:black">[COMING SOON]</h4>
-                                </div>
-                                <h3>Your Cousin's RAP Song</h3>
-                                <p>Funny Browser Minigame.</p>
-                                <div class="box">
-                                    <p><strong>[COMING SOON]</strong> <br /> </p>
+                                    <p><strong>Summary:</strong> <br /> 2-SMRT to die is a mix between a <strong>platform and a puzzle videogame</strong> in which you’ll have to <strong>use your deaths</strong> to solve the puzzles and pass the level. You take control of a really <strong>cute racoon</strong> that, due to the difficulties of scaping a laboratory, will <strong>die in horrible and gore ways</strong>.</p>
                                 </div>
                                 <ul class="actions">
-                                    <li><a class="button">[COMING SOON]</a></li>
+                                    <li><a class="button" data-toggle="modal" data-target="#SmrtdieModal">Learn more</a></li>
+                                    <li><a href="https://complex-27.itch.io/2-smrt-to-die" class="button primary icon brands fa-itch-io">Visit page</a></li>
                                 </ul>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="SmrtdieModal" tabindex="-1" role="dialog" aria-labelledby="SmrtdieModal" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="SmrtdieModal">2 SMRT 2 DIE</h3>
+                                                <button type="button" class="button small" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+
+                                                <!--<h4>Screenshots and a bit of gameplay about the project:</h4>-->
+                                                <div class="box alt">
+                                                    <!-- Carousel-->
+                                                    <div id="carouselSmrtdie" class="carousel slide" data-ride="carousel">
+                                                        <ol class="carousel-indicators">
+                                                            <li data-target="#carouselSmrtdie" data-slide-to="0" class="active"></li>
+                                                        </ol>
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/1vi4hdPA9Nc">
+                                                                </iframe>
+                                                                <h4>2 Smrt 2 Die Trailer</h4>
+                                                            </div>
+                                                        </div>
+                                                        <a class="carousel-control-prev" href="#carouselSmrtdie" role="button" data-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                            <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="carousel-control-next" href="#carouselSmrtdie" role="button" data-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="sr-only">Next</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </article>
-						-->
+
+                            <!-- TFM -->
                             <article>
                                 <a href="https://addi.ehu.es/bitstream/handle/10810/48807/TFG.UgarteAmundarain.Memoria.pdf?sequence=1&isAllowed=y" class="image"><img src="images/projects/TFG.jpg" alt="" /></a>
                                 <h3>
@@ -233,7 +294,7 @@
                                     Desarrollo de dos agentes usando aprendizaje por
                                     refuerzo en Unity
                                 </h3>
-                                <p>Final Bachelor's Degree Work.</p>
+                                <p>Bachelor's Degree Final Project.</p>
                                 <div class="box">
                                     <p><strong>Summary:</strong> <br /> Implementing Machine Learning (Reinforcement learning) in Unity using the <a href="https://github.com/Unity-Technologies/ml-agents">ML-Agents toolkit</a> and applying it to the legend of Theseus and the Minotaur.</p>
                                 </div>
@@ -268,33 +329,33 @@
                                                         <div class="carousel-inner">
                                                             <div class="carousel-item active">
                                                                 <span class="image fit"><img class="d-block w-100" src="images/projects/TFG/TFGImage1.png" alt="First slide"></span>
-																<!--<h3 class="modal-title" id="TFGModal">Final Degree's Work: Poster</h3>-->
-																<h3>Final Degree's Work: Poster</h3>
-																Made by the talented artist <a href="https://www.instagram.com/mria_art/">mria_art</a>. 
+                                                                <!--<h3 class="modal-title" id="TFGModal">Final Degree's Work: Poster</h3>-->
+                                                                <h3>Final Degree's Work: Poster</h3>
+                                                                Made by the talented artist <a href="https://www.instagram.com/mria_art/">mria_art</a>.
                                                             </div>
                                                             <div class="carousel-item">
                                                                 <span class="image fit"><img class="d-block w-100" src="images/projects/TFG/TFGImage2.png" alt="Second slide"></span>
-																<h3>Footprint & Yarn 3D Models</h3>
-																3D models used to portray the footrprints and yarn pieces.
+                                                                <h3>Footprint & Yarn 3D Models</h3>
+                                                                3D models used to portray the footrprints and yarn pieces.
                                                             </div>
                                                             <div class="carousel-item">
                                                                 <span class="image fit"><img class="d-block w-100" src="images/projects/TFG/TFGImage3.png" alt="Third slide"></span>
-																<h3>A* Pathfinding Algorithm Implementation</h3>
+                                                                <h3>A* Pathfinding Algorithm Implementation</h3>
                                                             </div>
                                                             <div class="carousel-item">
                                                                 <span class="image fit"><img class="d-block w-100" src="images/projects/TFG/TFGImage4.png" alt="Fourth slide"></span>
-																<h3>In-Game Screenshot</h3>
-																A screenshoot captured while training the agents.
+                                                                <h3>In-Game Screenshot</h3>
+                                                                A screenshoot captured while training the agents.
                                                             </div>
                                                             <div class="carousel-item">
-																<iframe width="100%" height="315" src="https://www.youtube.com/embed/zDiOkLgYt8Y">
-																</iframe>
-																<iframe width="100%" height="315" src="https://www.youtube.com/embed/_hyJXrODUsI">
-																</iframe>
-																<h3>Final Results</h3>
-																<b>1st result:</b> Minotaur trained following the same patterns as Teseo
-																<br />
-																<b>2nd result:</b> Minotaur trained as definitive minotaur
+                                                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/zDiOkLgYt8Y">
+                                                                </iframe>
+                                                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/_hyJXrODUsI">
+                                                                </iframe>
+                                                                <h3>Final Results</h3>
+                                                                <b>1st result:</b> Minotaur trained following the same patterns as Teseo
+                                                                <br />
+                                                                <b>2nd result:</b> Minotaur trained as definitive minotaur
                                                             </div>
                                                         </div>
                                                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -306,11 +367,11 @@
                                                             <span class="sr-only">Next</span>
                                                         </a>
                                                     </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-
+                                 </div>
                             </article>
                         </div>
                     </section>
@@ -501,7 +562,7 @@
                             <li>
                                 <span class="opener">Projects</span>
                                 <ul>
-                                    <li><a href="#Personal_Projects">Personal Projects</a></li>
+                                    <li><a href="#Personal_Projects">Projects</a></li>
                                     <li><a href="#Game_Jams">Game Jams</a></li>
                                 </ul>
                             </li>
